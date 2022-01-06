@@ -1,0 +1,1 @@
+<view><view class="HomeSwiper"><swiper indicator-dots="true" autoplay="true" circular="true"><block wx:for="{{swiperList}}" wx:for-item="item" wx:for-index="__i0__" wx:key="id"><block><swiper-item><image src="{{item.advImg}}"></image></swiper-item></block></block></swiper></view></view>

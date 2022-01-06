@@ -1,0 +1,13 @@
+
+.HomeSwiper {
+	margin: 10px 10px 0px 10px;
+	height: 151px;
+	background-color: rgba(254, 254, 254, 1);
+	border-radius: 5px;
+}
+image {
+	width: 710rpx;
+	height: 151px;
+	border-radius: 5px;
+}
+

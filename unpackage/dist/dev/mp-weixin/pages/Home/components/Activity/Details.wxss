@@ -1,0 +1,42 @@
+
+.bg {
+	background-color: #FEFEFE;
+}
+.title {
+	margin: 10px 10px 10px 10px;
+	font-size: 24px;
+}
+.img {
+	margin: 10px 10px 10px 10px;
+	width: 355px;
+	border-radius: 10px;
+}
+.titlea {
+	margin: 10px 10px 10px 10px;
+	font-size: 18px;
+}
+.desc {
+	/* 谢个屁 */
+}
+.textarea {
+	margin: 10px 10px 10px 10px;
+	width: 355px;
+	background-color: #F2F2F6;
+}
+.gonice {
+	margin: 10px 10px 10px 10px;
+	margin-top: 5px;
+	font-size: 14px;
+	color: #a6a6a6;
+}
+.imgb {
+	width: 100px;
+	height: 100px;
+	border-radius: 5px;
+}
+.messageBox {
+	margin: 10px;
+	padding: 10px;
+	background-color: #F2F2F6
+}
+

@@ -1,0 +1,1 @@
+<view><swiper class="a" indicator-dots="ture"><swiper-item class="b"><image src="../static/guide/guide1.png"></image></swiper-item><swiper-item class="b"><image src="../static/guide/guide2.jpg"></image></swiper-item><swiper-item class="b"><image src="../static/guide/guide3.jpg"></image></swiper-item></swiper></view>

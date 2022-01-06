@@ -1,0 +1,21 @@
+
+.bg {
+	margin: 10px;
+	background-color: #FEFEFE;
+	border-radius: 10px;
+}
+.bg2 {
+	margin: 10px;
+	background-color: #FEFEFE;
+	border-radius: 10px;
+	height: 200px;
+}
+.item {
+	padding: 5px;
+}
+.button {
+	top: 80px;
+	margin: 10px;
+	border-radius: 30px;
+}
+

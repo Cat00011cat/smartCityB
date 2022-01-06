@@ -1,0 +1,14 @@
+
+.mineinfoBox {
+	background-color: #FEFEFE;
+}
+.infotitle {
+	padding: 10px;
+}
+.info {
+	padding: 5px;
+}
+.infoinput {
+	border-bottom: 1px solid #F2F2F6;
+}
+

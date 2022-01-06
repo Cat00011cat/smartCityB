@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "首页",
+  "usingComponents": {
+    "home-header": "/pages/Home/components/Header",
+    "home-icons": "/pages/Home/components/Icons",
+    "home-swiper": "/pages/Home/components/Swiper",
+    "home-theme": "/pages/Home/components/Theme",
+    "home-news": "/pages/Home/components/News"
+  }
+}

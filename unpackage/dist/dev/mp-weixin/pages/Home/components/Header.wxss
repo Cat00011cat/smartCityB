@@ -1,0 +1,18 @@
+
+.HomeSearch {
+	/* 搜索框左右边距 */
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+/* 搜索框样式 */
+.search-bg {
+	background: #fefefe;
+	border-radius: 5px;
+}
+
+/* 搜索框大小 */
+.search-max {
+	padding: 10rpx;
+}
+

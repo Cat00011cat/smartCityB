@@ -1,0 +1,29 @@
+
+.bg {
+	background-color: #fefefe;
+	height: 100px;
+	margin: 10px;
+}
+.left {
+	float: left;
+}
+.right {
+	float: left;
+	padding-left: 10px;
+}
+.name {
+	font-size: 18px;
+}
+image {
+	width: 100px;
+	height: 100px;
+}
+.star {
+	margin-top: 30px;
+}
+.img {
+	width: 43rpx;
+	height: 43rpx;
+	margin-left: 20rpx;
+}
+

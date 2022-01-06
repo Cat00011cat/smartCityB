@@ -1,0 +1,35 @@
+
+page {
+	background: #F2F2F6;
+}
+.mineBackground {
+	height: 100px;
+	margin: 30px 10px 10px 10px;
+	background-color: #FEFEFE;
+	border-radius: 5px;
+}
+.mineAvatar {
+	float: left;
+	width: 88px;
+	height: 88px;
+	top: 5px;
+	border-radius: 100%;
+}
+.mineName {
+	font-size: 18px;
+	float: left;
+	margin: 30px 30px 30px 20px;
+}
+.loginout {
+	padding: 120px;
+}
+.mineInfo {
+	padding: 10px;
+	margin: 30px 10px 10px 10px;
+	background-color: #FEFEFE;
+	border-radius: 5px;
+}
+.right {
+	float: right;
+}
+

@@ -1,0 +1,10 @@
+
+.bg {
+	margin: 10px 10px 10px 10px;
+	background-color: #FEFEFE;
+	border: 1px solid #000000;
+}
+.desc {
+	padding: 5px;
+}
+

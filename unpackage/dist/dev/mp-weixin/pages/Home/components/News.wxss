@@ -1,0 +1,58 @@
+
+page {
+	background: #F2F2F6;
+}
+.box {
+	margin: 10px 10px 10px 10px;
+	background: #FEFEFE;
+	border-radius: 5px;
+}
+.scroll-x {
+	display: flex;
+	white-space: nowrap;
+}
+.title {
+	padding: 0 10px;
+	font-size: 18px;
+}
+
+/* 新闻内容 */
+
+/* 模块背景用这个 fefefe   ios简约标准*/
+.bg {
+	margin: 10px 10px 10px 10px;
+	border-radius: 5px;
+	background: #fefefe;
+	padding: 10px;
+}
+.titlea {
+	font-size: 18px;
+}
+.img {
+	margin-top: 5px;
+	width: 100%;
+	height: 150px;
+	border-radius: 5px;
+}
+.desc {
+	margin-top: 5px;
+	font-size: 16px;
+
+	/*  */
+	overflow: hidden;
+	word-break: break-all;
+	/* break-all(允许在单词内换行。) */
+	text-overflow: ellipsis;
+	/* 超出部分省略号 */
+	display: -webkit-box;
+	/** 对象作为伸缩盒子模型显示 **/
+	/*! autoprefixer: off */
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+}
+.time {
+	margin-top: 5px;
+	font-size: 14px;
+	color: #a6a6a6;
+}
+

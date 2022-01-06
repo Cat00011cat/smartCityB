@@ -1,0 +1,12 @@
+
+.jzBox {
+	padding: 10px;
+}
+.input {
+	height: 50px;
+	border-bottom: 1px solid #000000;
+}
+.button {
+	margin-top: 10px;
+}
+

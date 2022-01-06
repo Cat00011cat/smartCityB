@@ -1,0 +1,12 @@
+
+.loginBox {
+	padding: 10px;
+}
+.input {
+	height: 50px;
+	background-color: #FEFEFE;
+}
+.button {
+	margin-top: 10px;
+}
+

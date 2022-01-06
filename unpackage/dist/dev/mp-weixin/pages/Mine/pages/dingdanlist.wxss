@@ -1,0 +1,10 @@
+
+.dingdanlistBox {
+	margin: 10px;
+	background-color: #FEFEFE;
+	border-radius: 5px;
+}
+.desc {
+	padding: 5px;
+}
+

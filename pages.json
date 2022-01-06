@@ -1,0 +1,229 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/Home/Home",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		}, {
+			"path": "pages/allServices/allServices",
+			"style": {
+				"navigationBarTitleText": "全部服务",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/Community/Community",
+			"style": {
+				"navigationBarTitleText": "智慧社区",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/News/News",
+			"style": {
+				"navigationBarTitleText": "新闻",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/Mine/Mine",
+			"style": {
+				"navigationBarTitleText": "个人中心",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/Home/components/Header",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/Home/components/Icons",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/Home/components/Swiper",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/Home/components/Theme",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/Home/components/News",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/Mine/pages/login",
+			"style": {
+				"navigationBarTitleText": "用户登录",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/Mine/pages/mineinfo",
+			"style": {
+				"navigationBarTitleText": "个人信息",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/Mine/pages/resetpassword",
+			"style": {
+				"navigationBarTitleText": "修改密码",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/Mine/pages/feedback",
+			"style": {
+				"navigationBarTitleText": "意见反馈",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/Mine/pages/dingdanlist",
+			"style": {
+				"navigationBarTitleText": "订单列表",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/Mine/pages/register",
+			"style": {
+				"navigationBarTitleText": "用户注册",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/guide",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/Home/components/Activity/Activity",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/Home/components/Activity/Details",
+			"style": {
+				"navigationBarTitleText": "活动详情",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/Home/components/Violation/Violation",
+			"style": {
+				"navigationBarTitleText": "违章详情",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/Home/components/Violation/Select",
+			"style": {
+				"navigationBarTitleText": "违章查询",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/Home/components/Violation/SelectB",
+			"style": {
+				"navigationBarTitleText": "违章查询",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/Home/components/Outpatient/Outpatient",
+			"style": {
+				"navigationBarTitleText": "门诊预约",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/Home/components/Outpatient/Introduction",
+			"style": {
+				"navigationBarTitleText": "医院简介",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/Home/components/Outpatient/Card",
+			"style": {
+				"navigationBarTitleText": "就诊卡",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/Home/components/Outpatient/Add",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#808080",
+		"selectedColor": "#00aaff",
+		"list": [{
+			"iconPath": "static/tabBar/home.png",
+			"selectedIconPath": "static/tabBar/selhome.png",
+			"pagePath": "pages/Home/Home",
+			"text": "首页"
+		}, {
+			"iconPath": "static/tabBar/allservices.png",
+			"selectedIconPath": "static/tabBar/selallservices.png",
+			"pagePath": "pages/allServices/allServices",
+			"text": "全部服务"
+		}, {
+			"iconPath": "/static/tabBar/activity.png",
+			"selectedIconPath": "static/tabBar/selactivity.png",
+			"pagePath": "pages/Community/Community",
+			"text": "智慧社区"
+		}, {
+			"iconPath": "static/tabBar/new.png",
+			"selectedIconPath": "static/tabBar/selnew.png",
+			"pagePath": "pages/News/News",
+			"text": "新闻"
+		}, {
+			"iconPath": "static/tabBar/my.png",
+			"selectedIconPath": "static/tabBar/selmy.png",
+			"pagePath": "pages/Mine/Mine",
+			"text": "个人中心"
+		}]
+	},
+	// 开发调试的时候用
+	"condition": { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式（list 的索引项)
+		"list": [{
+			"name": "test", //模式名称
+			"path": "pages/Community/Community" //启动页面，必选
+		}]
+	}
+}

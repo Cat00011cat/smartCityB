@@ -1,0 +1,1 @@
+<view><view class="bg"><view class="title">{{hospitalName}}</view><image class="img" src="{{imgUrl}}"></image><view class="desc"><rich-text nodes="{{brief}}"></rich-text></view><button type="default" data-event-opts="{{[['tap',[['toCard']]]]}}" bindtap="__e">预约挂号</button></view></view>

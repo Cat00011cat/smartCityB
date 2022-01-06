@@ -1,0 +1,17 @@
+
+.bg {
+	background-color: #FEFEFE;
+	margin: 10px 10px 10px 10px;
+	border-radius: 10px;
+}
+.title {
+	padding: 10px;
+	font-size: 24px;
+}
+.img {
+	width: 100%;
+}
+.desc {
+	padding: 10px;
+}
+
