@@ -1275,7 +1275,7 @@ if(false) {}
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../../../HBuilderX/plugins/uniapp-cli/node_modules/css-loader/dist/runtime/api.js */ 15);
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n/* 服务板块 */\n.HomeIcons[data-v-0a8c36a8] {\n\tmargin: 10px 10px 10px 10px;\n\theight: 320px;\n\tbackground-color: #FEFEFE;\n\tborder-radius: 5px;\n}\n.HomeIcons-top-item[data-v-0a8c36a8] {\n\tmargin: 5px 0px 10px 0px;\n\twidth: 20%;\n\t/*  向左浮动  目的 图标一行显示*/\n\tfloat: left;\n}\n.HomeIcons-top-item-icon[data-v-0a8c36a8] {\n\twidth: 48px;\n\theight: 48px;\n\tmargin: 0 auto;\n\tpadding: 10px;\n\t/* background: url(../../../static/tabBar/selallservices.png) no-repeat; */\n\tbackground-size: 48px;\n}\n.HomeIcons-top-item-icon-desc[data-v-0a8c36a8] {\n\tpadding-top: 0px;\n\ttext-align: center;\n\tfont-size: 14px;\n}\n", ""]);
+exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n/* 服务板块 */\n.HomeIcons[data-v-0a8c36a8] {\n\tmargin: 10px 10px 10px 10px;\n\theight: 450rpx;\n\tbackground-color: #FEFEFE;\n\tborder-radius: 5px;\n}\n.HomeIcons-top-item[data-v-0a8c36a8] {\n\t/*  向左浮动  目的 图标一行显示*/\n\tfloat: left;\n\tmargin: 10px 0px 0px 0px;\n\twidth: 20%;\n}\n.HomeIcons-top-item-icon[data-v-0a8c36a8] {\n\twidth: 50px;\n\theight: 50px;\n\tmargin: 0 auto;\n\tpadding: 10px;\n\t/* background: url(../../../static/tabBar/selallservices.png) no-repeat; */\n\t/* background-size: 50px; */\n}\n.HomeIcons-top-item-icon-desc[data-v-0a8c36a8] {\n\ttext-align: center;\n}\n", ""]);
 // Exports
 module.exports = exports;
 
@@ -1581,11 +1581,11 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c(
     "v-uni-view",
-    { staticClass: _vm._$g(0, "sc"), attrs: { _i: 0 } },
+    { attrs: { _i: 0 } },
     [
       _c(
         "v-uni-view",
-        { attrs: { _i: 1 } },
+        { staticClass: _vm._$g(1, "sc"), attrs: { _i: 1 } },
         [
           _c("v-uni-image", {
             staticClass: _vm._$g(2, "sc"),
@@ -1595,22 +1595,29 @@ var render = function() {
               _i: 2
             }
           }),
+          _c(
+            "v-uni-view",
+            { staticClass: _vm._$g(3, "sc"), attrs: { _i: 3 } },
+            [_vm._v("美食")]
+          )
+        ],
+        1
+      ),
+      _c(
+        "v-uni-view",
+        { staticClass: _vm._$g(4, "sc"), attrs: { _i: 4 } },
+        [
           _c("v-uni-image", {
-            staticClass: _vm._$g(3, "sc"),
+            staticClass: _vm._$g(5, "sc"),
             attrs: {
               src:
                 "http://124.93.196.45:10001/prod-api/profile/upload/image/2021/05/08/12d84c9a-fca8-488b-9d92-383cbe448555.png",
-              _i: 3
+              _i: 5
             }
           }),
           _c(
-            "v-uni-text",
-            { staticClass: _vm._$g(4, "sc"), attrs: { _i: 4 } },
-            [_vm._v("美食")]
-          ),
-          _c(
-            "v-uni-text",
-            { staticClass: _vm._$g(5, "sc"), attrs: { _i: 5 } },
+            "v-uni-view",
+            { staticClass: _vm._$g(6, "sc"), attrs: { _i: 6 } },
             [_vm._v("甜点饮品")]
           )
         ],
@@ -1708,7 +1715,7 @@ if(false) {}
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../../../HBuilderX/plugins/uniapp-cli/node_modules/css-loader/dist/runtime/api.js */ 15);
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, "\n.HomeTheme[data-v-5d6a69d7] {\n\tmargin: 10px 10px 10px 10px;\n\theight: 120px;\n\tbackground-color: #FEFEFE;\n\tborder-radius: 5px;\n}\n.ThemeLeft[data-v-5d6a69d7] {\n\tfloat: left;\n\tmargin-left: 60px;\n\twidth: 100px;\n\theight: 100px;\n\tborder-radius: 20px;\n}\n.ThemeRight[data-v-5d6a69d7] {\n\tfloat: right;\n\tmargin-right: 60px;\n\twidth: 100px;\n\theight: 100px;\n\tborder-radius: 20px;\n}\n.theneName1[data-v-5d6a69d7] {\n\tfloat: left;\n\tmargin-left: 80px;\n}\n.theneName2[data-v-5d6a69d7] {\n\tfloat: right;\n\tmargin-right: 80px;\n}\n", ""]);
+exports.push([module.i, "\n.homeBox1[data-v-5d6a69d7] {\n\tfloat: left;\n\tbackground-color: #7569ff;\n\twidth: 350rpx;\n\theight: 200rpx;\n\tmargin-left: 20rpx;\n\tborder-radius: 20px;\n}\n.homeBox2[data-v-5d6a69d7] {\n\tfloat: left;\n\tbackground-color: #0cdfc0;\n\twidth: 350rpx;\n\theight: 200rpx;\n\tleft: 10px;\n\tmargin-left: 10rpx;\n\tborder-radius: 20px;\n\t/* padding: 8px; */\n}\n.img1[data-v-5d6a69d7] {\n\twidth: 60px;\n\theight: 60px;\n\tmargin-left: 110rpx;\n\tmargin-top: 5px;\n}\n.img2[data-v-5d6a69d7] {\n\twidth: 60px;\n\theight: 60px;\n\tmargin-left: 110rpx;\n\tmargin-top: 5px;\n}\n.desc1[data-v-5d6a69d7] {\n\tcolor: #FEFEFE;\n\ttext-align: center;\n}\n.desc2[data-v-5d6a69d7] {\n\tcolor: #FEFEFE;\n\ttext-align: center;\n}\n", ""]);
 // Exports
 module.exports = exports;
 
@@ -2011,7 +2018,7 @@ if(false) {}
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../../../HBuilderX/plugins/uniapp-cli/node_modules/css-loader/dist/runtime/api.js */ 15);
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, "\nbody[data-v-2cc3b735] {\n\tbackground: #F2F2F6;\n}\n.box[data-v-2cc3b735] {\n\tmargin: 10px 10px 10px 10px;\n\tbackground: #FEFEFE;\n\tborder-radius: 5px;\n}\n.scroll-x[data-v-2cc3b735] {\n\tdisplay: flex;\n\twhite-space: nowrap;\n}\n.title[data-v-2cc3b735] {\n\tpadding: 0 10px;\n\tfont-size: 18px;\n}\n\n/* 新闻内容 */\n\n/* 模块背景用这个 fefefe   ios简约标准*/\n.bg[data-v-2cc3b735] {\n\tmargin: 10px 10px 10px 10px;\n\tborder-radius: 5px;\n\tbackground: #fefefe;\n\tpadding: 10px;\n}\n.titlea[data-v-2cc3b735] {\n\tfont-size: 18px;\n}\n.img[data-v-2cc3b735] {\n\tmargin-top: 5px;\n\twidth: 100%;\n\theight: 150px;\n\tborder-radius: 5px;\n}\n.desc[data-v-2cc3b735] {\n\tmargin-top: 5px;\n\tfont-size: 16px;\n\n\t/*  */\n\toverflow: hidden;\n\tword-break: break-all;\n\t/* break-all(允许在单词内换行。) */\n\ttext-overflow: ellipsis;\n\t/* 超出部分省略号 */\n\tdisplay: -webkit-box;\n\t/** 对象作为伸缩盒子模型显示 **/\n\t/*! autoprefixer: off */\n\t-webkit-box-orient: vertical;\n\t-webkit-line-clamp: 2;\n}\n.time[data-v-2cc3b735] {\n\tmargin-top: 5px;\n\tfont-size: 14px;\n\tcolor: #a6a6a6;\n}\n", ""]);
+exports.push([module.i, "\nbody[data-v-2cc3b735] {\n\tbackground: #F2F2F6;\n}\n.box[data-v-2cc3b735] {\n\n\tmargin: 130px 10px 10px 10px;\n\tbackground: #FEFEFE;\n\tborder-radius: 5px;\n}\n.scroll-x[data-v-2cc3b735] {\n\tdisplay: flex;\n\twhite-space: nowrap;\n}\n.title[data-v-2cc3b735] {\n\tpadding: 0 10px;\n\tfont-size: 18px;\n}\n\n/* 新闻内容 */\n\n/* 模块背景用这个 fefefe   ios简约标准*/\n.bg[data-v-2cc3b735] {\n\tmargin: 10px 10px 10px 10px;\n\tborder-radius: 5px;\n\tbackground: #fefefe;\n\tpadding: 10px;\n}\n.titlea[data-v-2cc3b735] {\n\tfont-size: 18px;\n}\n.img[data-v-2cc3b735] {\n\tmargin-top: 5px;\n\twidth: 100%;\n\theight: 150px;\n\tborder-radius: 5px;\n}\n.desc[data-v-2cc3b735] {\n\tmargin-top: 5px;\n\tfont-size: 16px;\n\n\t/*  */\n\toverflow: hidden;\n\tword-break: break-all;\n\t/* break-all(允许在单词内换行。) */\n\ttext-overflow: ellipsis;\n\t/* 超出部分省略号 */\n\tdisplay: -webkit-box;\n\t/** 对象作为伸缩盒子模型显示 **/\n\t/*! autoprefixer: off */\n\t-webkit-box-orient: vertical;\n\t-webkit-line-clamp: 2;\n}\n.time[data-v-2cc3b735] {\n\tmargin-top: 5px;\n\tfont-size: 14px;\n\tcolor: #a6a6a6;\n}\n", ""]);
 // Exports
 module.exports = exports;
 
@@ -2290,7 +2297,7 @@ if(false) {}
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../../HBuilderX/plugins/uniapp-cli/node_modules/css-loader/dist/runtime/api.js */ 15);
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n/* 服务板块 */\n.HomeIcons {\n\tmargin: 10px 10px 10px 10px;\n\theight: 320px;\n\tbackground-color: #FEFEFE;\n\tborder-radius: 5px;\n}\n.HomeIcons-top-item {\n\tmargin: 5px 0px 10px 0px;\n\twidth: 20%;\n\t/*  向左浮动  目的 图标一行显示*/\n\tfloat: left;\n}\n.HomeIcons-top-item-icon {\n\twidth: 48px;\n\theight: 48px;\n\tmargin: 0 auto;\n\tpadding: 10px;\n\t/* background: url(../../../static/tabBar/selallservices.png) no-repeat; */\n\tbackground-size: 48px;\n}\n.HomeIcons-top-item-icon-desc {\n\tpadding-top: 0px;\n\ttext-align: center;\n\tfont-size: 14px;\n}\n", ""]);
+exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n/* 服务板块 */\n.HomeIcons {\n\tmargin: 10px 10px 10px 10px;\n\theight: 650rpx;\n\tbackground-color: #FEFEFE;\n\tborder-radius: 5px;\n}\n.HomeIcons-top-item {\n\t/*  向左浮动  目的 图标一行显示*/\n\tfloat: left;\n\tmargin: 10px 0px 0px 0px;\n\twidth: 20%;\n}\n.HomeIcons-top-item-icon {\n\twidth: 50px;\n\theight: 50px;\n\tmargin: 0 auto;\n\tpadding: 10px;\n\t/* background: url(../../../static/tabBar/selallservices.png) no-repeat; */\n\t/* background-size: 50px; */\n}\n.HomeIcons-top-item-icon-desc {\n\ttext-align: center;\n}\n", ""]);
 // Exports
 module.exports = exports;
 
@@ -2643,7 +2650,7 @@ if(false) {}
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../../HBuilderX/plugins/uniapp-cli/node_modules/css-loader/dist/runtime/api.js */ 15);
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, "\n.bga {\n\tpadding: 10px;\n}\n.bg {\n\tfloat: left;\n\tbackground-color: #FEFEFE;\n\twidth: 710rpx;\n\tborder-radius: 10rpx;\n\t/* padding: 5px; */\n\t/* padding-bottom: 10px; */\n}\n.bgb {\n\tfloat: left;\n\tbackground-color: #FEFEFE;\n\tmargin-top: 10px;\n\tborder-radius: 16px;\n}\n.title {\n\tfloat: left;\n\twidth: 50px;\n\tcolor: #ff0000;\n\tfont-weight: bold;\n\tpadding: 5px;\n}\n\n/* 伪类选择器添加竖线 */\n.title:before {\n\tfloat: left;\n\tcontent: '';\n\tbackground-color: #3796EC;\n\twidth: 4px;\n\theight: 40px;\n\tmargin-right: 10px;\n}\nuni-swiper {\n\tfloat: left;\n\twidth: 400rpx;\n\theight: 20px;\n\tpadding: 15px;\n}\n.boxl {\n\tfloat: left;\n\tmargin: 10px;\n\twidth: 315rpx;\n\theight: 100px;\n\tbackground-color: #FEFEFE;\n\t/* 设置阴影 */\n\tbox-shadow: 0px 0px 5px #cccccf;\n\ttext-align: center;\n\tfont-size: 38rpx;\n\tborder-radius: 16px;\n}\n.boxr {\n\tfloat: right;\n\tmargin: 10px;\n\twidth: 315rpx;\n\theight: 100px;\n\tbackground-color: #FEFEFE;\n\tbox-shadow: 0px 0px 5px #cccccf;\n\ttext-align: center;\n\tfont-size: 38rpx;\n\tborder-radius: 10px;\n}\n", ""]);
+exports.push([module.i, "\n.bga {\n\tpadding: 10px;\n}\n.bg {\n\tfloat: left;\n\tbackground-color: #FEFEFE;\n\twidth: 710rpx;\n\tborder-radius: 10rpx;\n\t/* padding: 5px; */\n\t/* padding-bottom: 10px; */\n}\n.bgb {\n\tfloat: left;\n\tbackground-color: #FEFEFE;\n\tmargin-top: 10px;\n\tborder-radius: 16px;\n}\n.title {\n\tfloat: left;\n\twidth: 50px;\n\tcolor: #ff0000;\n\tfont-weight: bold;\n\tpadding: 5px;\n}\n\n/* 伪类选择器添加竖线 */\n.title:before {\n\tfloat: left;\n\tcontent: '';\n\tbackground-color: #3796EC;\n\twidth: 4px;\n\theight: 40px;\n\tmargin-right: 10px;\n}\nuni-swiper {\n\tfloat: left;\n\twidth: 400rpx;\n\theight: 20px;\n\tpadding: 15px;\n}\n.boxl {\n\tfloat: left;\n\tmargin: 10px;\n\twidth: 315rpx;\n\theight: 100px;\n\tbackground-color: #FEFEFE;\n\t/* 设置阴影 */\n\tbox-shadow: 0px 0px 5px #cccccf;\n\tfont-size: 38rpx;\n\tborder-radius: 16px;\n}\n.boxr {\n\tfloat: right;\n\tmargin: 10px;\n\twidth: 315rpx;\n\theight: 100px;\n\tbackground-color: #FEFEFE;\n\tbox-shadow: 0px 0px 5px #cccccf;\n\tfont-size: 38rpx;\n\tborder-radius: 10px;\n}\n.fun {\n\tfloat: left;\n\tpadding: 38px;\n}\n", ""]);
 // Exports
 module.exports = exports;
 
@@ -3704,7 +3711,7 @@ if(false) {}
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../../../HBuilderX/plugins/uniapp-cli/node_modules/css-loader/dist/runtime/api.js */ 15);
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n/* 服务板块 */\n.HomeIcons {\n\tmargin: 10px 10px 10px 10px;\n\theight: 320px;\n\tbackground-color: #FEFEFE;\n\tborder-radius: 5px;\n}\n.HomeIcons-top-item {\n\tmargin: 5px 0px 10px 0px;\n\twidth: 20%;\n\t/*  向左浮动  目的 图标一行显示*/\n\tfloat: left;\n}\n.HomeIcons-top-item-icon {\n\twidth: 48px;\n\theight: 48px;\n\tmargin: 0 auto;\n\tpadding: 10px;\n\t/* background: url(../../../static/tabBar/selallservices.png) no-repeat; */\n\tbackground-size: 48px;\n}\n.HomeIcons-top-item-icon-desc {\n\tpadding-top: 0px;\n\ttext-align: center;\n\tfont-size: 14px;\n}\n", ""]);
+exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n/* 服务板块 */\n.HomeIcons {\n\tmargin: 10px 10px 10px 10px;\n\theight: 450rpx;\n\tbackground-color: #FEFEFE;\n\tborder-radius: 5px;\n}\n.HomeIcons-top-item {\n\t/*  向左浮动  目的 图标一行显示*/\n\tfloat: left;\n\tmargin: 10px 0px 0px 0px;\n\twidth: 20%;\n}\n.HomeIcons-top-item-icon {\n\twidth: 50px;\n\theight: 50px;\n\tmargin: 0 auto;\n\tpadding: 10px;\n\t/* background: url(../../../static/tabBar/selallservices.png) no-repeat; */\n\t/* background-size: 50px; */\n}\n.HomeIcons-top-item-icon-desc {\n\ttext-align: center;\n}\n", ""]);
 // Exports
 module.exports = exports;
 
@@ -4010,11 +4017,11 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c(
     "v-uni-view",
-    { staticClass: _vm._$g(0, "sc"), attrs: { _i: 0 } },
+    { attrs: { _i: 0 } },
     [
       _c(
         "v-uni-view",
-        { attrs: { _i: 1 } },
+        { staticClass: _vm._$g(1, "sc"), attrs: { _i: 1 } },
         [
           _c("v-uni-image", {
             staticClass: _vm._$g(2, "sc"),
@@ -4024,22 +4031,29 @@ var render = function() {
               _i: 2
             }
           }),
+          _c(
+            "v-uni-view",
+            { staticClass: _vm._$g(3, "sc"), attrs: { _i: 3 } },
+            [_vm._v("美食")]
+          )
+        ],
+        1
+      ),
+      _c(
+        "v-uni-view",
+        { staticClass: _vm._$g(4, "sc"), attrs: { _i: 4 } },
+        [
           _c("v-uni-image", {
-            staticClass: _vm._$g(3, "sc"),
+            staticClass: _vm._$g(5, "sc"),
             attrs: {
               src:
                 "http://124.93.196.45:10001/prod-api/profile/upload/image/2021/05/08/12d84c9a-fca8-488b-9d92-383cbe448555.png",
-              _i: 3
+              _i: 5
             }
           }),
           _c(
-            "v-uni-text",
-            { staticClass: _vm._$g(4, "sc"), attrs: { _i: 4 } },
-            [_vm._v("美食")]
-          ),
-          _c(
-            "v-uni-text",
-            { staticClass: _vm._$g(5, "sc"), attrs: { _i: 5 } },
+            "v-uni-view",
+            { staticClass: _vm._$g(6, "sc"), attrs: { _i: 6 } },
             [_vm._v("甜点饮品")]
           )
         ],
@@ -4137,7 +4151,7 @@ if(false) {}
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../../../HBuilderX/plugins/uniapp-cli/node_modules/css-loader/dist/runtime/api.js */ 15);
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, "\n.HomeTheme {\n\tmargin: 10px 10px 10px 10px;\n\theight: 120px;\n\tbackground-color: #FEFEFE;\n\tborder-radius: 5px;\n}\n.ThemeLeft {\n\tfloat: left;\n\tmargin-left: 60px;\n\twidth: 100px;\n\theight: 100px;\n\tborder-radius: 20px;\n}\n.ThemeRight {\n\tfloat: right;\n\tmargin-right: 60px;\n\twidth: 100px;\n\theight: 100px;\n\tborder-radius: 20px;\n}\n.theneName1 {\n\tfloat: left;\n\tmargin-left: 80px;\n}\n.theneName2 {\n\tfloat: right;\n\tmargin-right: 80px;\n}\n", ""]);
+exports.push([module.i, "\n.homeBox1 {\n\tfloat: left;\n\tbackground-color: #7569ff;\n\twidth: 350rpx;\n\theight: 200rpx;\n\tmargin-left: 20rpx;\n\tborder-radius: 20px;\n}\n.homeBox2 {\n\tfloat: left;\n\tbackground-color: #0cdfc0;\n\twidth: 350rpx;\n\theight: 200rpx;\n\tleft: 10px;\n\tmargin-left: 10rpx;\n\tborder-radius: 20px;\n\t/* padding: 8px; */\n}\n.img1 {\n\twidth: 60px;\n\theight: 60px;\n\tmargin-left: 110rpx;\n\tmargin-top: 5px;\n}\n.img2 {\n\twidth: 60px;\n\theight: 60px;\n\tmargin-left: 110rpx;\n\tmargin-top: 5px;\n}\n.desc1 {\n\tcolor: #FEFEFE;\n\ttext-align: center;\n}\n.desc2 {\n\tcolor: #FEFEFE;\n\ttext-align: center;\n}\n", ""]);
 // Exports
 module.exports = exports;
 
@@ -4440,7 +4454,7 @@ if(false) {}
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../../../HBuilderX/plugins/uniapp-cli/node_modules/css-loader/dist/runtime/api.js */ 15);
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, "\nbody {\n\tbackground: #F2F2F6;\n}\n.box {\n\tmargin: 10px 10px 10px 10px;\n\tbackground: #FEFEFE;\n\tborder-radius: 5px;\n}\n.scroll-x {\n\tdisplay: flex;\n\twhite-space: nowrap;\n}\n.title {\n\tpadding: 0 10px;\n\tfont-size: 18px;\n}\n\n/* 新闻内容 */\n\n/* 模块背景用这个 fefefe   ios简约标准*/\n.bg {\n\tmargin: 10px 10px 10px 10px;\n\tborder-radius: 5px;\n\tbackground: #fefefe;\n\tpadding: 10px;\n}\n.titlea {\n\tfont-size: 18px;\n}\n.img {\n\tmargin-top: 5px;\n\twidth: 100%;\n\theight: 150px;\n\tborder-radius: 5px;\n}\n.desc {\n\tmargin-top: 5px;\n\tfont-size: 16px;\n\n\t/*  */\n\toverflow: hidden;\n\tword-break: break-all;\n\t/* break-all(允许在单词内换行。) */\n\ttext-overflow: ellipsis;\n\t/* 超出部分省略号 */\n\tdisplay: -webkit-box;\n\t/** 对象作为伸缩盒子模型显示 **/\n\t/*! autoprefixer: off */\n\t-webkit-box-orient: vertical;\n\t-webkit-line-clamp: 2;\n}\n.time {\n\tmargin-top: 5px;\n\tfont-size: 14px;\n\tcolor: #a6a6a6;\n}\n", ""]);
+exports.push([module.i, "\nbody {\n\tbackground: #F2F2F6;\n}\n.box {\n\n\tmargin: 130px 10px 10px 10px;\n\tbackground: #FEFEFE;\n\tborder-radius: 5px;\n}\n.scroll-x {\n\tdisplay: flex;\n\twhite-space: nowrap;\n}\n.title {\n\tpadding: 0 10px;\n\tfont-size: 18px;\n}\n\n/* 新闻内容 */\n\n/* 模块背景用这个 fefefe   ios简约标准*/\n.bg {\n\tmargin: 10px 10px 10px 10px;\n\tborder-radius: 5px;\n\tbackground: #fefefe;\n\tpadding: 10px;\n}\n.titlea {\n\tfont-size: 18px;\n}\n.img {\n\tmargin-top: 5px;\n\twidth: 100%;\n\theight: 150px;\n\tborder-radius: 5px;\n}\n.desc {\n\tmargin-top: 5px;\n\tfont-size: 16px;\n\n\t/*  */\n\toverflow: hidden;\n\tword-break: break-all;\n\t/* break-all(允许在单词内换行。) */\n\ttext-overflow: ellipsis;\n\t/* 超出部分省略号 */\n\tdisplay: -webkit-box;\n\t/** 对象作为伸缩盒子模型显示 **/\n\t/*! autoprefixer: off */\n\t-webkit-box-orient: vertical;\n\t-webkit-line-clamp: 2;\n}\n.time {\n\tmargin-top: 5px;\n\tfont-size: 14px;\n\tcolor: #a6a6a6;\n}\n", ""]);
 // Exports
 module.exports = exports;
 

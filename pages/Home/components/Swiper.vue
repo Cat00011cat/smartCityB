@@ -2,7 +2,7 @@
 	<view>
 		<view class="HomeSwiper">
 			<swiper indicator-dots="true" autoplay="true" circular="true">
-				<block v-for="item of swiperList" :key="item.id">
+				<block v-for="item of swiperList.slice(1)" :key="item.id">
 					<swiper-item>
 						<image :src="item.advImg"></image>
 					</swiper-item>

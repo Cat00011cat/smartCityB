@@ -39,7 +39,7 @@ http://124.93.196.45:10001/prod-api/profile/upload/image/2021/05/08/12d84c9a-fca
 		float: left;
 		background-color: #7569ff;
 		width: 350rpx;
-		height: 220rpx;
+		height: 200rpx;
 		margin-left: 20rpx;
 		border-radius: 20px;
 	}
@@ -48,7 +48,7 @@ http://124.93.196.45:10001/prod-api/profile/upload/image/2021/05/08/12d84c9a-fca
 		float: left;
 		background-color: #0cdfc0;
 		width: 350rpx;
-		height: 220rpx;
+		height: 200rpx;
 		left: 10px;
 		margin-left: 10rpx;
 		border-radius: 20px;
@@ -56,15 +56,17 @@ http://124.93.196.45:10001/prod-api/profile/upload/image/2021/05/08/12d84c9a-fca
 	}
 
 	.img1 {
-		width: 80px;
-		height: 80px;
-		margin-left: 90rpx;
+		width: 60px;
+		height: 60px;
+		margin-left: 110rpx;
+		margin-top: 5px;
 	}
 
 	.img2 {
-		width: 80px;
-		height: 80px;
-		margin-left: 90rpx;
+		width: 60px;
+		height: 60px;
+		margin-left: 110rpx;
+		margin-top: 5px;
 	}
 
 	.desc1 {

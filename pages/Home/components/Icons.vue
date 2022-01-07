@@ -1,16 +1,7 @@
 <template>
 	<view>
 		<view class="HomeIcons">
-			<!-- 	<view class="HomeIcons-top-item">
-				<view class="HomeIcons-top-item-icon">
-					<view class="HomeIcons-top-item-icon-desc">服务</view>
-				</view>
-			</view> -->
-
-
-			<!--aa 
-			 -->
-			<view v-for="item of Rows" :key="item.id">
+			<view v-for="item of Rows.slice(0,10)" :key="item.id">
 				<view class="HomeIcons-top-item">
 					<view>
 						<image :src="item.imgUrl" class="HomeIcons-top-item-icon"></image>
@@ -18,8 +9,6 @@
 					</view>
 				</view>
 			</view>
-
-
 
 		</view>
 	</view>
@@ -62,7 +51,7 @@
 	/* 服务板块 */
 	.HomeIcons {
 		margin: 10px 10px 10px 10px;
-		height: 320px;
+		height: 450rpx;
 		background-color: #FEFEFE;
 		border-radius: 5px;
 	}
@@ -70,17 +59,17 @@
 	.HomeIcons-top-item {
 		/*  向左浮动  目的 图标一行显示*/
 		float: left;
-		margin: 5px 0px 10px 0px;
+		margin: 10px 0px 0px 0px;
 		width: 20%;
 	}
 
 	.HomeIcons-top-item-icon {
-		width: 48px;
-		height: 48px;
+		width: 50px;
+		height: 50px;
 		margin: 0 auto;
 		padding: 10px;
 		/* background: url(../../../static/tabBar/selallservices.png) no-repeat; */
-		background-size: 48px;
+		/* background-size: 50px; */
 	}
 
 	.HomeIcons-top-item-icon-desc {
