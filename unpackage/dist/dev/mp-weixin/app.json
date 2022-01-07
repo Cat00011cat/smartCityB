@@ -25,7 +25,13 @@
     "pages/Home/components/Outpatient/Outpatient",
     "pages/Home/components/Outpatient/Introduction",
     "pages/Home/components/Outpatient/Card",
-    "pages/Home/components/Outpatient/Add"
+    "pages/Home/components/Outpatient/Add",
+    "pages/Community/Property/Property",
+    "pages/Community/Express/Express",
+    "pages/Community/Sof/Sof",
+    "pages/Community/Business/Business",
+    "pages/Community/Car/Car",
+    "pages/Community/Moving/Moving"
   ],
   "subPackages": [],
   "window": {

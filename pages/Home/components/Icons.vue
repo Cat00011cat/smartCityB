@@ -68,10 +68,10 @@
 	}
 
 	.HomeIcons-top-item {
-		margin: 5px 0px 10px 0px;
-		width: 20%;
 		/*  向左浮动  目的 图标一行显示*/
 		float: left;
+		margin: 5px 0px 10px 0px;
+		width: 20%;
 	}
 
 	.HomeIcons-top-item-icon {
@@ -84,8 +84,6 @@
 	}
 
 	.HomeIcons-top-item-icon-desc {
-		padding-top: 0px;
 		text-align: center;
-		font-size: 14px;
 	}
 </style>

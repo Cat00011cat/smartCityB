@@ -3,34 +3,34 @@
 		<view class="bg">
 			<text class="title">社区动态</text>
 			<swiper circular="true" vertical="true" autoplay="true" interval="1500">
-				<swiper-item v-for="(item,index) in noticeList" :key="index">
-					<view v-text="item.message" @click="item()"></view>
+				<swiper-item v-for="(item, index) in noticeList" :key="index">
+					<view v-text="item.message" @click="goMessage()"></view>
 				</swiper-item>
 			</swiper>
 		</view>
 
 		<view class="bgb">
-			<view class="boxl">
+			<view class="boxl" @click="goProperty()">
 				<text class="fun">物业服务</text>
 			</view>
 
-			<view class="boxr">
+			<view class="boxr" @click="goExpress()">
 				<text class="fun">快件管理</text>
 			</view>
 
-			<view class="boxl">
+			<view class="boxl" @click="goSof()">
 				<text class="fun">友邻社交</text>
 			</view>
 
-			<view class="boxr">
+			<view class="boxr" @click="goBusiness()">
 				<text class="fun">商业推广</text>
 			</view>
 
-			<view class="boxl">
+			<view class="boxl" @click="goCar()">
 				<text class="fun">车辆管理</text>
 			</view>
 
-			<view class="boxr">
+			<view class="boxr" @click="goDev()">
 				<text class="fun">敬请期待</text>
 			</view>
 		</view>
@@ -56,8 +56,42 @@
 			}
 		},
 		methods: {
-			item() {
-				console.log('点击了公告')
+			goMessage() {
+				uni.navigateTo({
+					url: 'Moving/Moving'
+				})
+			},
+			goProperty() {
+				uni.navigateTo({
+					url: 'Property/Property'
+				})
+			},
+			goExpress() {
+				uni.navigateTo({
+					url: 'Express/Express'
+				})
+			},
+			goSof() {
+				uni.navigateTo({
+					url: 'Sof/Sof'
+				})
+			},
+			goBusiness() {
+				uni.navigateTo({
+					url: 'Business/Business'
+				})
+			},
+			goCar() {
+				uni.navigateTo({
+					url: 'Car/Car'
+				})
+			},
+			goDev() {
+				uni.showModal({
+					content: '更多功能敬请期待',
+					showCancel: false,
+					// editable: true
+				})
 			}
 		}
 	}
@@ -118,7 +152,6 @@
 		background-color: #FEFEFE;
 		/* 设置阴影 */
 		box-shadow: 0px 0px 5px #cccccf;
-		text-align: center;
 		font-size: 38rpx;
 		border-radius: 16px;
 	}
@@ -130,8 +163,12 @@
 		height: 100px;
 		background-color: #FEFEFE;
 		box-shadow: 0px 0px 5px #cccccf;
-		text-align: center;
 		font-size: 38rpx;
 		border-radius: 10px;
+	}
+
+	.fun {
+		float: left;
+		padding: 38px;
 	}
 </style>

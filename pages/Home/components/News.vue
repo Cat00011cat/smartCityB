@@ -88,7 +88,8 @@
 	}
 
 	.box {
-		margin: 10px 10px 10px 10px;
+
+		margin: 130px 10px 10px 10px;
 		background: #FEFEFE;
 		border-radius: 5px;
 	}

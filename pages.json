@@ -113,14 +113,14 @@
 		}, {
 			"path": "pages/guide",
 			"style": {
-				"navigationBarTitleText": "",
+				"navigationBarTitleText": "智慧城市引导页",
 				"enablePullDownRefresh": false
 			}
 
 		}, {
 			"path": "pages/Home/components/Activity/Activity",
 			"style": {
-				"navigationBarTitleText": "",
+				"navigationBarTitleText": "活动管理",
 				"enablePullDownRefresh": false
 			}
 
@@ -176,7 +176,49 @@
 		}, {
 			"path": "pages/Home/components/Outpatient/Add",
 			"style": {
-				"navigationBarTitleText": "",
+				"navigationBarTitleText": "添加就诊人",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/Community/Property/Property",
+			"style": {
+				"navigationBarTitleText": "物业服务",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/Community/Express/Express",
+			"style": {
+				"navigationBarTitleText": "快件管理",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/Community/Sof/Sof",
+			"style": {
+				"navigationBarTitleText": "友邻社交",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/Community/Business/Business",
+			"style": {
+				"navigationBarTitleText": "商业推广",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/Community/Car/Car",
+			"style": {
+				"navigationBarTitleText": "车辆管理",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/Community/Moving/Moving",
+			"style": {
+				"navigationBarTitleText": "物业通知",
 				"enablePullDownRefresh": false
 			}
 

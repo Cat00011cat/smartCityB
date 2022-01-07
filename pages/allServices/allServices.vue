@@ -86,6 +86,5 @@
 	.HomeIcons-top-item-icon-desc {
 		padding-top: 0px;
 		text-align: center;
-		font-size: 14px;
 	}
 </style>
