@@ -66,42 +66,29 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 /* 服务板块 */
 .HomeIcons {
 	margin: 10px 10px 10px 10px;
-	height: 320px;
+	height: 450rpx;
 	background-color: #FEFEFE;
 	border-radius: 5px;
 }
 .HomeIcons-top-item {
-	margin: 5px 0px 10px 0px;
-	width: 20%;
 	/*  向左浮动  目的 图标一行显示*/
 	float: left;
+	margin: 10px 0px 0px 0px;
+	width: 20%;
 }
 .HomeIcons-top-item-icon {
-	width: 48px;
-	height: 48px;
+	width: 50px;
+	height: 50px;
 	margin: 0 auto;
 	padding: 10px;
 	/* background: url(../../../static/tabBar/selallservices.png) no-repeat; */
-	background-size: 48px;
+	/* background-size: 50px; */
 }
 .HomeIcons-top-item-icon-desc {
-	padding-top: 0px;
 	text-align: center;
-	font-size: 14px;
 }
 
 
@@ -118,33 +105,43 @@ image {
 }
 
 
-.HomeTheme {
-	margin: 10px 10px 10px 10px;
-	height: 120px;
-	background-color: #FEFEFE;
-	border-radius: 5px;
-}
-.ThemeLeft {
+.homeBox1 {
 	float: left;
-	margin-left: 60px;
-	width: 100px;
-	height: 100px;
+	background-color: #7569ff;
+	width: 350rpx;
+	height: 200rpx;
+	margin-left: 20rpx;
 	border-radius: 20px;
 }
-.ThemeRight {
-	float: right;
-	margin-right: 60px;
-	width: 100px;
-	height: 100px;
-	border-radius: 20px;
-}
-.theneName1 {
+.homeBox2 {
 	float: left;
-	margin-left: 80px;
+	background-color: #0cdfc0;
+	width: 350rpx;
+	height: 200rpx;
+	left: 10px;
+	margin-left: 10rpx;
+	border-radius: 20px;
+	/* padding: 8px; */
 }
-.theneName2 {
-	float: right;
-	margin-right: 80px;
+.img1 {
+	width: 60px;
+	height: 60px;
+	margin-left: 110rpx;
+	margin-top: 5px;
+}
+.img2 {
+	width: 60px;
+	height: 60px;
+	margin-left: 110rpx;
+	margin-top: 5px;
+}
+.desc1 {
+	color: #FEFEFE;
+	text-align: center;
+}
+.desc2 {
+	color: #FEFEFE;
+	text-align: center;
 }
 
 
@@ -152,7 +149,8 @@ page {
 	background: #F2F2F6;
 }
 .box {
-	margin: 10px 10px 10px 10px;
+
+	margin: 130px 10px 10px 10px;
 	background: #FEFEFE;
 	border-radius: 5px;
 }
