@@ -82,9 +82,9 @@
             "splashscreen" : {
                 "androidStyle" : "default",
                 "android" : {
-                    "hdpi" : "D:/桌面/welBg.png",
-                    "xhdpi" : "D:/桌面/welBg.png",
-                    "xxhdpi" : "D:/桌面/welBg.png"
+                    "hdpi" : "D:/图片/welBg.png",
+                    "xhdpi" : "D:/图片/welBg.png",
+                    "xxhdpi" : "D:/图片/welBg.png"
                 },
                 "useOriginalMsgbox" : true
             }
