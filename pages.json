@@ -225,37 +225,37 @@
 		}
 	],
 	"globalStyle": {
-		"navigationBarTextStyle": "black",
-		"navigationBarTitleText": "uni-app",
-		"navigationBarBackgroundColor": "#F8F8F8",
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "loding...",
+		"navigationBarBackgroundColor": "#0055ff",
 		"backgroundColor": "#F8F8F8"
 	},
 	"tabBar": {
 		"color": "#808080",
-		"selectedColor": "#00aaff",
+		"selectedColor": "#0055ff",
 		"list": [{
-			"iconPath": "static/tabBar/home.png",
-			"selectedIconPath": "static/tabBar/selhome.png",
+			"iconPath": "static/tabBar/main0.png",
+			"selectedIconPath": "static/tabBar/main1.png",
 			"pagePath": "pages/Home/Home",
 			"text": "首页"
 		}, {
-			"iconPath": "static/tabBar/allservices.png",
-			"selectedIconPath": "static/tabBar/selallservices.png",
+			"iconPath": "static/tabBar/allservice0.png",
+			"selectedIconPath": "static/tabBar/allservice1.png",
 			"pagePath": "pages/allServices/allServices",
 			"text": "全部服务"
 		}, {
-			"iconPath": "/static/tabBar/activity.png",
-			"selectedIconPath": "static/tabBar/selactivity.png",
+			"iconPath": "static/tabBar/huodong0.png",
+			"selectedIconPath": "static/tabBar/huodong1.png",
 			"pagePath": "pages/Community/Community",
 			"text": "智慧社区"
 		}, {
-			"iconPath": "static/tabBar/new.png",
-			"selectedIconPath": "static/tabBar/selnew.png",
+			"iconPath": "static/tabBar/new0.png",
+			"selectedIconPath": "static/tabBar/new1.png",
 			"pagePath": "pages/News/News",
 			"text": "新闻"
 		}, {
-			"iconPath": "static/tabBar/my.png",
-			"selectedIconPath": "static/tabBar/selmy.png",
+			"iconPath": "static/tabBar/person0.png",
+			"selectedIconPath": "static/tabBar/person1.png",
 			"pagePath": "pages/Mine/Mine",
 			"text": "个人中心"
 		}]

@@ -2,7 +2,7 @@
 	<view>
 		<view class="mineBackground">
 			<view class="mineBackground">
-				<image class="mineAvatar" src="../../static/Jack.png" v-on:click="loginPage()"></image>
+				<image class="mineAvatar" src="../../static/tabBar/person0.png" v-on:click="loginPage()"></image>
 				<text class=" mineName" @click="loginPage()" v-text="userName">立即登录</text>
 			</view>
 			<view class="mineMenu">
